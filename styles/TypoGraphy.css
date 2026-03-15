@@ -1,0 +1,81 @@
+.fontExample{
+    background-color: orange;
+}
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+.lobster-font {
+    font-family: 'Lobster', cursive;
+}
+.montserrat-font {
+    font-family: 'Montserrat', sans-serif;
+}
+.fontSize{
+    background-color: purple;
+}
+.size-px {
+    font-size: 16px;
+}
+.size-em {
+    font-size: 1.5em;
+}
+.size-rem {
+    font-size: 2rem;
+}
+.size-percent {
+    font-size: 120%;
+}
+.allignmentExample{
+    background-color: brown;
+}
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.align-justify {
+    text-align: justify;
+}
+.decorationExample{
+    background-color: blue;
+    color: white;
+}
+.underline {
+    text-decoration: underline;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+.shadowEffect{
+    background-color: blueviolet;
+}
+.shadow-small {
+    text-shadow: 1px 1px 2px rgb(236, 121, 121);
+}
+.shadow-medium {
+    text-shadow: 2px 2px 4px rgb(95, 62, 62);
+}
+.shadow-large {
+    text-shadow: 3px 3px 6px rgb(57, 49, 49);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+header, section {
+    margin-bottom: 30px;
+}
+h1, h2 {
+    margin-bottom: 15px;
+}

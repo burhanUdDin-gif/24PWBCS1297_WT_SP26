@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    text-align: center;
+    background-color: #eee;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+.btn-section button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.small-blue {
+    background-color: #3498db;
+    color: white;
+    font-size: 12px;
+}
+
+.small-blue:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.medium-green {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 16px;
+}
+
+.medium-green:hover {
+    background-color: #27ae60;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.large-red {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+.large-red:hover {
+    background: linear-gradient(45deg, #e74c3c, #c0392b);
+}
+
+.rounded-purple {
+    background-color: #9b59b6;
+    color: white;
+    border-radius: 15px;
+    padding: 12px 25px;
+}
+
+.rounded-purple:hover {
+    background-color: #8e44ad;
+}
+
+.circle-orange {
+    background-color: #e67e22;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 60px;
+    padding: 0;
+}
+
+.circle-orange:hover {
+    transform: scale(1.2);
+}
+
+.disabled-btn {
+    background-color: #95a5a6;
+    color: white;
+    cursor: not-allowed;
+}
+
+.disabled-btn:hover {
+    background-color: #95a5a6;
+}

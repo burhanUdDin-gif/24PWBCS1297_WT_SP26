@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    color: gray;
+    margin: 10px 0;
+}
+
+#container {
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+}
+
+a, li {
+    text-decoration: none;
+    color: black;
+}
+
+a[title] {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+input[placeholder] {
+    border-radius: 5px;
+}
+
+div a {
+    color: rgb(33, 134, 134);
+}
+
+ul > li {
+    list-style: square;
+    margin: 5px 0;
+}
+
+p.intro + p.highlight {
+    background-color: lightyellow;
+}
+
+p.intro ~ p.highlight {
+    padding: 5px;
+}
+
+a:hover {
+    color: red;
+}
+
+li:first-child {
+    color: green;
+}
+
+li:last-child {
+    color: purple;
+}
+
+li:nth-child(2) {
+    color: rgb(89, 62, 12);
+}
+
+input:focus {
+    outline: 2px solid blue;
+}
+
+h1::before {
+    content: "Burhan ";
+}
