@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.sectionBox{
+    margin-bottom: 30px;
+}
+
+.blockBox{
+    display: block;
+    background: lightblue;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.inlineBox{
+    display: inline;
+    background: lightcoral;
+    padding: 5px;
+}
+
+.inlineBlockBox{
+    display: inline-block;
+    background: lightgreen;
+    padding: 10px;
+    margin: 5px;
+}
+
+.tableContainer{
+    display: table;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.tableRow{
+    display: table-row;
+}
+
+.tableCell{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.hiddenBox{
+    background: gray;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px){
+    .inlineBlockBox{
+        display: block;
+    }
+
+    .tableCell{
+        display: block;
+        width: 100%;
+    }
+
+    .hideOnMobile{
+        display: none;
+    }
+}
+
+@media (min-width: 769px){
+    .hideOnDesktop{
+        display: none;
+    }
+}

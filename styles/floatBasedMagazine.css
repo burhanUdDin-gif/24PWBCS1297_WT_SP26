@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.mainContainer{
+    width: 100%;
+}
+
+.mainContent{
+    width: 70%;
+    float: left;
+}
+
+.sideBar{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+}
+
+.floatImage{
+    float: left;
+    margin: 0 15px 10px 0;
+    height: 250px;
+    width: auto;
+}
+
+.multiColumnText{
+    column-count: 2;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+/* clear floats */
+.mainContainer::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* responsive part */
+@media (max-width: 768px){
+
+    .mainContent{
+        width: 100%;
+        float: none;
+    }
+
+    .sideBar{
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    .floatImage{
+        float: none;
+        display: block;
+        margin: 0 auto 10px;
+    }
+
+    .multiColumnText{
+        column-count: 1;
+    }
+}
