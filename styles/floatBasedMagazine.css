@@ -32,14 +32,12 @@ body{
     margin-top: 20px;
 }
 
-/* clear floats */
 .mainContainer::after{
     content: "";
     display: block;
     clear: both;
 }
 
-/* responsive part */
 @media (max-width: 768px){
 
     .mainContent{

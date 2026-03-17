@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 15px;
+    flex: 1 1 100%;
+}
+
+.cardAction{
+    margin-top: auto;
+}
+
+@media (min-width: 768px){
+    .cardBox{
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (min-width: 1024px){
+    .cardBox{
+        flex: 1 1 calc(33.33% - 20px);
+    }
+}

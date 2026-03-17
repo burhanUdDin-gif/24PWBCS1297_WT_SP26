@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>positionLayout</title>
+<link rel="stylesheet" href="..\\styles\\PositionLayout.css">
+</head>
+
+<body>
+
+<div class="headerBar">
+    fixed header
+</div>
+
+<div class="pageContainer">
+
+    <div class="sideBar">
+        <div class="stickyBox">sticky item 1</div>
+        <div class="stickyBox">sticky item 2</div>
+    </div>
+
+    <div class="mainContent">
+        <h2>main content</h2>
+        <p>scroll to see sticky behavior and layering effect.</p>
+
+        <div class="layerBox boxOne">box one</div>
+        <div class="layerBox boxTwo">box two</div>
+        <div class="layerBox boxThree">box three</div>
+
+        <a href="#modalBox">open modal</a>
+    </div>
+
+</div>
+
+<div class="modalOverlay" id="modalBox">
+    <div class="modalContent">
+        <p>this is modal dialog</p>
+        <a href="#">close</a>
+    </div>
+</div>
+
+</body>
+</html>
